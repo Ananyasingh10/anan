@@ -1,0 +1,121 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	</head>
+<title></title>
+<style>
+	*{
+	 margin:0; padding: 0; box-sizing:border-box; 
+	}
+	header{
+		width:100%;height: 100vh;
+		background-image:url('software.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	nav{
+		width:100%; height:15vh;
+		background:rgba(0,0,0,0.2);
+		color: #ffdab9; display:flex;justify-content:space-between;
+		align-items: center; text-transform:uppercase;
+	}
+	nav .logo{
+		width:25%; text-align:center;
+	}
+	nav .menu{
+		width:40%;
+		display:flex; justify-content:space-around;
+	}
+	nav .menu{
+		width: 40%; 
+		display:flex; justify-content: space-around;
+	}
+	nav .menu a {
+		width: 25%;
+		text-decoration:none; color: white;
+		font-weight: bold;
+	}
+	nav .menu a: first-child{
+		color: #d2691e;
+	}
+	main{
+		width:100%;
+		height:85vh;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		color: #FFE4E1;
+	}
+	section{
+
+	}
+	section h3{
+		font-size: 35px; font-weight:200; letter-spacing:3px;
+		text-shadow: 1px 1px 2px black;
+	}
+	section h1{
+		margin: 30px 0 20px 0;
+		font-size: 55px;
+		font-weight: 500;
+		text-shadow: 2px 1px 5px black;
+		text-transform: uppercase;
+	}
+	section p{
+		font-size: 25px;
+		color: #FFE4E1;
+		word-spacing: 2px;
+		margin-bottom: 25px;
+		text-shadow: 1px 1px 1px black;
+	}
+	section a{
+		padding :12px 30px;
+		border-radius: 4px;
+		outline: none;
+		text-transform: uppercase;
+		font-size: 13px;
+		font-weight: 500;
+		text-decoration: none;
+		letter-spacing: 1px;
+	}
+	section .btnone{
+		background: #ffebcd;
+		color: #000;
+
+	}
+	.change_content:after{
+		content:' ';
+		animation: changetext 10s infinite linear;
+		color: #40E0D0;
+	}
+	@keyframes changetext{
+		0%{ content:"INFORMATION TECHNOLOGY";}
+		20%{ content: "COMPUTER SCIENCE";}
+		35%{ content: "ELECTRICAL";}
+		60%{ content: "CIVIL";}
+		80%{ content: "CHEMICAL";}
+		100%{ content: "MECHANICAL"; }
+	}
+	}
+
+</style>
+<header>
+<nav>
+<div class="logo"> <h1 class ="animated infinite heartbeat">INTELLIGENCE </h1></div>
+<div class="menu">
+<a href="file:///C:/Users/anann/Desktop/New%20folder/videobackground.html" target=_blank>HOME</a>
+<a href="file:///C:/Users/anann/Desktop/New%20folder/waterripples.html" target=_blank>GALLERY</a>
+<a href="file:///C:/Users/anann/Desktop/New%20folder/studentcalc.html" target=_blank>CALC</a>
+<a href="file:///C:/Users/anann/Desktop/New%20folder/weboform.html" target=_blank">LOGIN</a>
+</div>
+</nav>
+<main>
+<section>
+
+<h3>I'M AN </h3>
+<h1>ENGINEER IN<span class="change_content"></span></h1>
+<p> "TO SAVE TIME LET'S JUST ASSUME THAT I AM NEVER WRONG"</p>
+</section>
+</main>
+</header>
+</html>
